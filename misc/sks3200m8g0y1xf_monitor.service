@@ -1,0 +1,11 @@
+[Unit]
+Description=SKS3200M-8GPY1XF monitor
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/sks3200m8g0y1xf_monitor -conf /usr/local/etc/sks3200m8g0y1xf_monitor.yaml
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

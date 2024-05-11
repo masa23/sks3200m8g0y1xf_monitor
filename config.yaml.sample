@@ -1,0 +1,10 @@
+---
+Graphite:
+  Host: 'localhost'
+  Port: 2003
+  Prefix: 'min.network'
+Switch:
+  Name: "switch"
+  URL: "http://192.168.10.14"
+  User: "admin"
+  Password: "admin"
